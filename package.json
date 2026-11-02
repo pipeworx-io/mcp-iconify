@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-iconify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Iconify MCP — wraps the Iconify public API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "iconify",
     "gatewaySlug": "iconify",
-    "sourceHash": "v1-34b5677e1c15bba4a096307aa690efece1666a37745be9d741974bb785cb85a8",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-df5ee4f9a12360c64409beb1c16b70a03662f0777e83dcec40a903ef35cbd8c2",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
