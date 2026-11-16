@@ -41,7 +41,7 @@
     }
   },
   {
-    "name": "list_collections",
+    "name": "iconify_list_collections",
     "description": "Browse available icon collections. Returns prefix, name, icon count, author, license, and category. Use the prefix with search_icons or get_icons.",
     "inputSchema": {
       "type": "object",

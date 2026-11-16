@@ -1,8 +1,8 @@
 # mcp-iconify
 
-Iconify MCP — wraps the Iconify public API (free, no auth)
+Unofficial Iconify MCP — wraps the Iconify public API (free, no auth)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -10,7 +10,7 @@ Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents 
 |------|-------------|
 | `search_icons` | Search for icons by keyword across all collections. Returns icon names in prefix:name format (e.g., "mdi:home"). Use get_icons to fetch SVG data for results. |
 | `get_icons` | Get SVG code and dimensions for specific icons. Input icon names in prefix:name format (e.g., "mdi:home", "fa:star"). Returns SVG markup, width, and height. |
-| `list_collections` | Browse available icon collections. Returns prefix, name, icon count, author, license, and category. Use the prefix with search_icons or get_icons. |
+| `iconify_list_collections` | Browse available icon collections. Returns prefix, name, icon count, author, license, and category. Use the prefix with search_icons or get_icons. |
 
 ## Quick Start
 
@@ -56,7 +56,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1865+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
